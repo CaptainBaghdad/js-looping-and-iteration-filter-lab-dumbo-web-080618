@@ -2,7 +2,7 @@
 function findMatching(drivers, name){
 
  let sameCaseName  = name.toUpperCase();
- drivers.filter(function(ele){
+ return drivers.filter(function(ele){
    return sameCaseName == ele.toUpperCase();
    
 
