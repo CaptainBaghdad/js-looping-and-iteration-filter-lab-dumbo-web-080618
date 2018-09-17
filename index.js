@@ -10,3 +10,8 @@ function findMatching(drivers, name){
   });  
   
 }
+
+function fuzzyMatch(drivers, string){
+  
+  
+}
