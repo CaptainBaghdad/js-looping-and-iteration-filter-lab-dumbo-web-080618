@@ -21,9 +21,10 @@ function fuzzyMatch(drivers, string){
 
 
 function matchName(drivers, string){
-  for(const key of drivers){
-    console.log(drivers[key]);
-  }
+  return drivers.filter(function(ele){
+    return ele.name == string;
+    
+  });
   
 }
 
