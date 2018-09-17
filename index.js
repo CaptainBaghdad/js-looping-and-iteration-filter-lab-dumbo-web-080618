@@ -12,6 +12,9 @@ function findMatching(drivers, name){
 }
 
 function fuzzyMatch(drivers, string){
-  
+  const allUp = string.toUpperCase();
+  drivers.filter(function(ele){
+    
+  });
   
 }
